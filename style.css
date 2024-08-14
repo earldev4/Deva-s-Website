@@ -1,9 +1,50 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: var(--main-color);
 }
 *{
     padding: 0;
     margin: 0;
     font-family: "Raleway", sans-serif;
+}
+:root{
+    --main-color: #dcdcdc;
+}
+.navigation-bar{
+    padding: 10px;
+    display: flex;
+    max-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-bar img{
+    height: 50px;
+    width: 50px;
+}
+.navigation-menu{
+    list-style: none;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#mobile-icon{
+    display: none;
+}
+@media only screen and (max-width: 1200px){
+    .navigation-menu{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .navigation-menu{
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .navigation-menu{
+        width: 65%;
+    }
 }
