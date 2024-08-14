@@ -27,6 +27,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: var(--navigation-color);
+    backdrop-filter: blur(10px);
 }
 .navigation-bar img{
     height: 50px;
@@ -70,6 +71,9 @@ main {
 }
 .main-header img{
     width: 50%;
+    transform: rotate(-10deg);
+    z-index: -1;
+    border-radius: 7px;
 }
 .main-header h1{
     font-size: 7vw;
@@ -77,6 +81,7 @@ main {
 }
 .main-header h1:first-child{
     align-self: flex-end;
+    font-family: "Edu VIC WA NT Beginner", cursive;
 }
 .main-header h1:nth-of-type(2){
     align-self: flex-start;
