@@ -19,8 +19,8 @@ body{
 }
 .navigation-bar{
     position: fixed;
-    width: 100%;
     top: 0;
+    width: 100%;
     padding: 10px;
     display: flex;
     max-height: 100px;
@@ -46,11 +46,24 @@ body{
 .navigation-menu a{
     text-decoration: none;
 }
+.navigation-menu li{
+    transition: 200ms;
+}
 .navigation-menu li:hover{
     color: var(--font-hover)
 }
 #mobile-icon{
     display: none;
+}
+main {
+    padding-top: 60px;
+}
+.main-header{
+    width: 90%;
+    height: 800px;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 50px;
 }
 @media only screen and (max-width: 1200px){
     .navigation-menu{
