@@ -20,6 +20,7 @@ body{
     --hamburger-color: rgb(39, 39, 39);
     --font-color: rgb(21, 21, 21);
     --font-hover: rgb(255, 255, 255);
+    --slide-color: rgb(174, 165, 165);
 }
 .navigation-bar{
     position: fixed;
@@ -214,6 +215,22 @@ main {
 }
 .images img{
     width: 100%;
+}
+.slide-navigation{
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    bottom: -20%;
+}
+.slide-navigation a{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: var(--slide-color);
+    font-size: 0px;
+    transition-duration: 1s;
 }
 @media only screen and (max-width: 1200px){
     .navigation-menu{
