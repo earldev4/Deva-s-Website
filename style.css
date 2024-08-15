@@ -267,10 +267,26 @@ main {
     height: 600px;
     max-height: 100%;
     padding: 50px;
+    display: grid;
     grid-template-areas: "title desc desc"
                          "img img img";
 }
-
+.contact-me h1{
+    grid-area: title;
+    font-size: 5vw;
+}
+.contact-me p{
+    grid-area: desc;
+}
+.social-icon{
+    grid-area: img;
+}
+.social-icon a img{
+    width: 15%;
+}
+.social-icon a img:nth-child(even){
+    width: 20%;
+}
 @media only screen and (max-width: 1200px){
     .navigation-menu{
         width: 60%;
