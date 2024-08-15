@@ -15,6 +15,8 @@ body{
 :root{
     --navigation-color: rgba(243, 237, 237, 0.5);
     --main-color: #dcdcdc;
+    --secondary-color: #ffff;
+    --transition-color: linear-gradient(180deg, rgba(220,220,220,1) 37%, rgba(255,255,255,1) 70%);
     --hamburger-color: rgb(39, 39, 39);
     --font-color: rgb(21, 21, 21);
     --font-hover: rgb(255, 255, 255);
@@ -30,6 +32,7 @@ body{
     align-items: center;
     background-color: var(--navigation-color);
     backdrop-filter: blur(10px);
+    z-index: 1000;
 }
 .navigation-bar img{
     height: 50px;
@@ -91,6 +94,9 @@ main {
 .main-header h4{
     align-self: flex-start;
 }
+#section2{
+    background-color: var(--secondary-color);
+}
 .about-me{
     width: 90%;
     height: 800px;
@@ -123,7 +129,7 @@ main {
     justify-self: end;
     align-self: center;
     border-radius: 3px;
-    z-index: -1;
+    z-index: 0;
 }
 .work-experience{
     margin: 100px auto;
@@ -156,6 +162,9 @@ main {
 .work-exp div{
     display: flex;
     flex-direction: column;
+}
+#section4{
+    background-color: var(--secondary-color);
 }
 .skills-expertise{
     margin: 100px auto;
