@@ -270,6 +270,7 @@ main {
     grid-template-areas: "title desc desc"
                          "img img img";
 }
+
 @media only screen and (max-width: 1200px){
     .navigation-menu{
         width: 60%;
