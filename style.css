@@ -42,6 +42,9 @@ body{
 .navigation-bar svg{
     display: none;
 }
+.navigation-bar h4{
+    font-size: 1.2em;
+}
 .navigation-menu{
     list-style: none;
     padding: 10px;
@@ -287,9 +290,19 @@ main {
 }
 .social-icon a img{
     width: 12vw;
+    transition: all 0.15s ease;
+}
+.social-icon a img:hover{
+    transform: scale(1.2);
 }
 #section6{
     background-color: var(--secondary-color);
+    border-radius: 0px 0px 30px 30px;
+}
+footer h4{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 20px;
 }
 @media only screen and (max-width: 1200px){
     .navigation-menu{
