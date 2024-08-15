@@ -164,10 +164,20 @@ main {
     max-height: 100%;
     padding: 50px;
     display: grid;
-    grid-template-rows:  1fr 3fr;
+    grid-template-rows:  1fr 4fr;
+}
+.skills-expertise h1{
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+.skills-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
 }
 .skills-pictures img{
-    width: 20px;
+    width: 100%;
+    border-radius: 3px;
 }
 @media only screen and (max-width: 1200px){
     .navigation-menu{
@@ -211,6 +221,16 @@ main {
     }
     .about-me p{
         width: 80%;
+    }
+    .skills-expertise{
+        margin: 10px auto;
+        padding: 10px;
+    }
+    .skills-container{
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+    .skills-expertise h1{
+        font-size: 6vw;
     }
 }
 @media only screen and (max-width: 768px){
@@ -258,6 +278,19 @@ main {
     .work-experience h1{
         font-size: 8vw;
     }
+    .skills-container{
+        width: 80%;
+        grid-template-columns: none;
+        grid-template-rows: 3fr 0.5fr 0.5fr 0.5fr;
+    }
+    .skills-expertise h1{
+        font-size: 8vw;
+        align-self: flex-end;
+    }
+    .skills-expertise{
+        height: 100%;
+        justify-items: center;
+    }
 }
 @media only screen and (max-width: 576px){
     .main-header{
@@ -289,5 +322,10 @@ main {
     .work-experience h1{
         font-size: 9vw;
         align-self: flex-end;
+    }
+    .skills-pictures img{
+        width: 100%;
+        height: 50%;
+        border-radius: 3px;
     }
 }
