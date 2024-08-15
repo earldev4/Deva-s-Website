@@ -261,6 +261,7 @@ main {
 #slide-8:target~.images{
     margin-left: -700%;
 }
+.contact-me{}
 @media only screen and (max-width: 1200px){
     .navigation-menu{
         width: 60%;
