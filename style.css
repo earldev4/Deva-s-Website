@@ -261,7 +261,15 @@ main {
 #slide-8:target~.images{
     margin-left: -700%;
 }
-.contact-me{}
+.contact-me{
+    margin: 100px auto;
+    width: 90%;
+    height: 600px;
+    max-height: 100%;
+    padding: 50px;
+    grid-template-areas: "title desc desc"
+                         "img img img";
+}
 @media only screen and (max-width: 1200px){
     .navigation-menu{
         width: 60%;
