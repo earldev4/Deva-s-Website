@@ -288,6 +288,9 @@ main {
 .social-icon a img{
     width: 12vw;
 }
+#section6{
+    background-color: var(--secondary-color);
+}
 @media only screen and (max-width: 1200px){
     .navigation-menu{
         width: 60%;
@@ -347,6 +350,14 @@ main {
     .my-art h1{
         font-size: 9vw;
         align-self: center;
+    }
+    .contact-me{
+        margin: 70px auto;
+        height: 100%;
+        padding: 10px;
+    }
+    .contact-me h1{
+        font-size: 6vw;
     }
 }
 @media only screen and (max-width: 768px){
@@ -462,5 +473,14 @@ main {
         grid-template-rows: 1fr 5fr;
         height: 100%;
         padding: 10px;
+    }
+    .contact-me h1{
+        font-size: 9vw;
+    }
+    .contact-me{
+        grid-template-areas: "title"
+                             "desc"
+                             "img";
+        gap: 5px;
     }
 }
