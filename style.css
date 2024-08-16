@@ -330,7 +330,7 @@ footer h4{
 }
 @media only screen and (max-width: 992px){
     .navigation-menu{
-        width: 65%;
+        width: 80%;
     }
     .main-header{
         padding: 10px;
