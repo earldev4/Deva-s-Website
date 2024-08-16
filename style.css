@@ -25,6 +25,16 @@ body{
     --font-hover: rgb(255, 255, 255);
     --slide-color: rgb(174, 165, 165);
 }
+.dark-mode{
+    --navigation-color: rgba(15, 32, 60, 0.9); 
+    --main-color: #0f1a2b; 
+    --secondary-color: #14253a; 
+    --transition-color: linear-gradient(180deg, rgba(20, 40, 70, 1) 37%, rgba(25, 50, 90, 1) 70%); 
+    --hamburger-color: rgb(255, 255, 255); 
+    --font-color: rgb(230, 230, 255); 
+    --font-hover: rgb(180, 210, 255); 
+    --slide-color: rgb(10, 20, 40);
+}
 .navigation-bar{
     position: fixed;
     top: 0;
@@ -42,11 +52,24 @@ body{
     height: 50px;
     width: 50px;
 }
-.navigation-bar svg{
+.hbg-menu{
     display: none;
 }
 .navigation-bar h4{
     font-size: 1.2em;
+}
+#theme-switch{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    padding: 0;
+}
+#theme-switch svg{
 }
 .navigation-menu{
     list-style: none;
@@ -402,7 +425,7 @@ footer h4{
         text-align: center;
         background-color: var(--main-color);
     }
-    .navigation-bar svg{
+    .hbg-menu{
         display: block;
         width: 50px;
         height: 50px; 
