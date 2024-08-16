@@ -304,6 +304,10 @@ footer h4{
     text-align: center;
     padding: 20px;
 }
+.navigation-animation{
+    display: block;
+    transform: none;
+}
 @media only screen and (max-width: 1200px){
     .navigation-menu{
         width: 60%;
@@ -382,6 +386,20 @@ footer h4{
     }
     .navigation-menu{
         display: none;
+        position: absolute;
+        flex-direction: column;
+        justify-content: space-around;
+        top: 0vh;
+        right: 0;
+        height: 100vh;
+        width: 30%;
+        transform: translateX(50px);
+        background-color: var(--slide-color);
+        transition: all 0.3s ease;
+    }
+    .navigation-menu a{
+        text-align: center;
+        background-color: var(--main-color);
     }
     .navigation-bar svg{
         display: block;
@@ -445,6 +463,9 @@ footer h4{
 @media only screen and (max-width: 576px){
     .main-header{
         grid-template-rows: 0.7fr 2fr 0.3fr 1fr;
+    }
+    .navigation-menu{
+        width: 60%;
     }
     .about-me {
         grid-template-columns: none;
