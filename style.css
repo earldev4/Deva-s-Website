@@ -53,6 +53,10 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+#navi-anim{
+    display: flex;
+    transform: none;
+}
 .navigation-menu a{
     text-decoration: none;
 }
