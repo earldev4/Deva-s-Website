@@ -121,6 +121,7 @@ main {
     transform: rotate(-10deg);
     z-index: -1;
     border-radius: 5px;
+    object-fit: cover;
 }
 .main-header h1{
     font-size: 7vw;
