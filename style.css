@@ -177,7 +177,7 @@ main {
     transition: all 0.5 ease;
 }
 .about-me .second-image:hover{
-    transform: rotate(0) scale(1.5);
+    transform: rotate(0) scale(1.2);
 }
 .work-experience{
     margin: 100px auto;
