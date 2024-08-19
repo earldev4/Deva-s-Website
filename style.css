@@ -159,6 +159,7 @@ main {
     justify-self: start;
     width: 80%;
     border-radius: 5px;
+    object-fit: cover;
 }
 .about-me p{
     width: 60%;
