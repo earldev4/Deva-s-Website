@@ -354,8 +354,11 @@ footer h4{
 }
 @media only screen and (min-width: 1700px){
     .about-me{
-        width: 90%;
         height: 1000px;
+        max-height: 100%;
+    }
+    .skills-expertise{
+        height: 800px;
         max-height: 100%;
     }
 }
