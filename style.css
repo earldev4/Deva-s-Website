@@ -478,6 +478,7 @@ footer h4{
     }
     .main-header{
         grid-template-rows: 0.7fr 2fr 0.3fr 2fr;
+        height: 100vh;
     }
     .main-header img{
         width: 100%;
@@ -499,6 +500,7 @@ footer h4{
         width: 100%;
     }  
     .work-experience{
+        height: 80vh;
         padding: 10px;
         gap: 10px;
     }
