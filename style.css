@@ -355,7 +355,6 @@ footer h4{
 }
 @media only screen and (min-width: 1700px){
     .main-header{
-        width: 90%;
         height: 1000px;
         max-height: 100%;
     }
@@ -365,6 +364,10 @@ footer h4{
     }
     .skills-expertise{
         height: 800px;
+        max-height: 100%;
+    }
+    .my-art{
+        height: 1200px;
         max-height: 100%;
     }
 }
