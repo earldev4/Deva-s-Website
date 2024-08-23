@@ -352,6 +352,13 @@ footer h4{
     display: block;
     transform: none;
 }
+@media only screen and (min-width: 1700px){
+    .about-me{
+        width: 90%;
+        height: 1000px;
+        max-height: 100%;
+    }
+}
 @media only screen and (max-width: 1200px){
     .navigation-menu{
         width: 60%;
